@@ -12,6 +12,11 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        'mobile': {'raw': '(max-width: 640px)'},
+        'tablet': {'raw': '(min-width: 641px) and (max-width: 1023px)'},
+        'desktop': {'raw': '(min-width: 1024px)'}
+      },
     },
   },
   plugins: [],
