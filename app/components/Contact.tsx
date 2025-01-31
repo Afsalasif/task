@@ -80,7 +80,7 @@ const Contact = () => {
 
         {/* Register Button */}
         <div className="flex justify-center md:justify-start mx-auto w-full max-w-[1440px]">
-          <button className="w-full md:w-[300px] h-[60px] md:h-[85px] md:mb-4 rounded-[50px] bg-[#ADEDEA] font-montserrat text-[16px] md:text-[18px] font-[700] text-[#0034AE]">
+          <button className="w-full md:w-[300px] h-[60px] md:h-[85px] mb-4 rounded-[50px] bg-[#ADEDEA] font-montserrat text-[16px] md:text-[18px] font-[700] text-[#0034AE]">
             REGISTER NOW
           </button>
         </div>
