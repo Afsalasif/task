@@ -10,7 +10,7 @@ const Carousal = () => {
   const [current, setCurrent] = useState(1);
 
   return (
-    <div className="w-full flex justify-center items-center relative h-[500px] md:h-screen bg-[#064AD2]">
+    <div className="w-full flex justify-center items-center relative h-[700px] md:h-screen bg-[#064AD2]">
       {/* Title - Adjusted for mobile */}
       <div className="absolute text-center h-6 w-full max-md:top-[30px] top-[50px] md:top-[90px] px-4">
         <h1 className="font-medium text-[48px] md:text-[48px] text-[#ADEDEA]">
