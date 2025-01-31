@@ -13,8 +13,17 @@ const Balls = () => {
         </p>
       </div>
 
-      {/* Ball Layout */}
-      <div className="w-full  max-w-[1600px] min-h-screen md:min-h-[1080px] mx-auto">
+      {/* Mobile/Tablet View - Single Image */}
+      <div className="w-full h-full md:hidden flex items-center justify-center px-4">
+        <img 
+          src="/images/gpb.png" // Replace with your actual image path
+          alt="Event Highlights"
+          className="w-full max-w-[500px] object-contain"
+        />
+      </div>
+
+      {/* Desktop View - Ball Layout */}
+      <div className="hidden md:block w-full max-w-[1600px] min-h-screen md:min-h-[1080px] mx-auto">
         {/* Ball 1 */}
         <div className="absolute w-[200px] h-[200px] sm:w-[340px] sm:h-[340px] 
           md:w-[435px] md:h-[435px] top-[20%] left-[25%] -translate-x-1/2
@@ -32,7 +41,6 @@ const Balls = () => {
           md:w-[389px] md:h-[389px] top-[40%] left-[60%] md:top-[350px] 
           md:left-[24%] bg-white lg:left-[29%] rounded-full flex items-center justify-center 
           p-4 shadow-lg -translate-x-1/2 md:translate-x-0">
-          
           <p className="text-center font-light text-[14px] sm:text-[16px] 
             md:text-[22px]">
             <span className="font-medium">Immersive Experiences:</span>
