@@ -11,7 +11,7 @@ const Timeline = () => {
           </h1>
 
           {/* Timeline Line */}
-          <div className="absolute md:left-[110px] lg:left-[125px] w-1 h-full bg-gradient-to-b from-[#ADEDEA] to-[#8AAAF5]"></div>
+          <div className="absolute md:left-[110px] lg:left-[125px] w-1 h-[1650px] bg-gradient-to-b from-[#ADEDEA] to-[#8AAAF5]"></div>
 
           {/* Image Decoration */}
           <div className="absolute right-0 md:top-[70%] lg:top-[45%] w-[35vw] max-w-[669px] opacity-10">
